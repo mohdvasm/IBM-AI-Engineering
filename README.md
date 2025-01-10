@@ -1,4 +1,4 @@
-![](Screenshot_2025-01-10-15-58-59-048_com.android.chrome-edit.jpg)
+![](course_banner.jpg)
 
 # IBM-AI-Engineering Professional Certificate
 
