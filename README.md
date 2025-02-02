@@ -2,7 +2,7 @@
 
 # IBM-AI-Engineering Professional Certificate
 
-| Course Number | Course Title | Folder Path | Labs Path |
+| # | Title | Folder | Labs |
 |---------------|--------------|-------------|-----------|
 | 01 | Machine Learning With Python | [Folder](<01. Machine Learning>) | [Labs](<01. Machine Learning/Labs>) |
 | 02 | Introduction To Deep Learning With Keras | [Folder](<02. Intro To DL With Keras>) | [Labs](<02. Intro To DL With Keras/Labs>) |
