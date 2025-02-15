@@ -1,0 +1,12 @@
+# C8M1.7. Training the model with PyTorch
+
+Last edited: February 15, 2025 1:52 AM
+Tags: Course 08
+
+Welcome to training the model in PyTorch. After watching this video, you'll be able to describe how to train a neural network in PyTorch. Let's use concepts related to cross entropy loss and optimization to train the model with PyTorch. Consider you have a news data set that has been tokenized and indexed, let's proceed to split the data set. Create two iterators for the ag news data set where one contains only training. Further, split the training data into training and validation. After splitting data loaders are set up for training, validation, and testing. Batch size specifies the sample count for gradient approximation and shuffling the data promotes better optimization. These are the codes that you can use to define your model, when you do so init weights helps with optimization. This code creates an instance of the text classification model. Now you initialize your optimizer and loss function and then set the number of epochs during which you'll record the loss and accuracy for each epoch. To train your loop, iterate over each epoch. That is, each time you pass through the entire data set, set the model to training mode and iteratively calculate the total loss. Divide the data set into batches, which improves performance. Perform gradient descent to adjust the model parameters. Finally, update the loss after each batch is processed. For each epoch, record the loss and accuracy. If the model achieves higher accuracy on the validation data set, you can save its parameters. As you plot the loss and accuracy over time, you can observe a trend. As the loss decreases, accuracy correspondingly increases, let's now recap what you learned. In this video you learned that the training data is split into training and validation, and then data loaders are set up for training, validation, and testing. Batch size specifies the sample count for gradient approximation, and shuffling the data promotes better optimization. When you define your model, init weights helps with optimization. To train your loop, iterate over each epoch, set the model to training mode, and iteratively calculate the total loss. Divide the data set into batches, perform gradient descent, and finally update the loss after each batch is processed. [MUSIC]
+
+---
+
+Like
+
+Dislike
