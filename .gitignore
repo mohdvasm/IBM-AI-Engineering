@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Custom 
+03. DL With Keras/Labs/o-vs-r-split
