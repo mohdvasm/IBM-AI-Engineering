@@ -1,0 +1,47 @@
+[project]
+name = "ibm-ai-engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.12"
+dependencies = [
+    "dash>=3.1.1",
+    "dash-core-components>=2.0.0",
+    "dash-html-components>=2.0.0",
+    "dash-table>=5.0.0",
+    "ipykernel>=6.30.0",
+    "ipython>=8.37.0",
+    "levenshtein>=0.27.1",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "portalocker>=3.2.0",
+    "scikit-learn>=1.7.1",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchdata>=0.11.0",
+    "torchtext>=0.18.0",
+    "torchvision>=0.22.1",
+    "tqdm>=4.67.1",
+]
+
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cpu" },
+]
+torchvision = [
+    { index = "pytorch-cpu" },
+]
+torchtext = [
+    { index = "pytorch-cpu" },
+]
+torchaudio = [
+    { index = "pytorch-cpu" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
